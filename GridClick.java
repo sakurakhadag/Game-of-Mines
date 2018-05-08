@@ -1,6 +1,7 @@
 import java.awt.event.*;
 import javax.swing.*;  
 import java.util.Random;
+import java.awt.font.*;
 import java.util.*;
 import java.awt.*;
 
@@ -14,10 +15,12 @@ class GridClick implements MouseListener{
    
 
     JTextField action=new JTextField("");
+    Font font1 = new Font("SansSerif", Font.BOLD, 30);
     JTextField flagCount=new JTextField("10");
+    
+    
     //JTextField cellsClosed=new JTextField("71");//was needed to keep a track of how
                                                 //many non bomb cells were left
-    //imp
     int cellsLeft=71;
     
     
@@ -60,13 +63,14 @@ class GridClick implements MouseListener{
         setIcon(reset,"alive");
         //cellsClosed.setBounds(10,50,40,40);
         //action.setBounds(70,50,20,20);
-        reset.setBounds((row*50/2)-25,50,75,75);
-        flagCount.setBounds((row*50/2)-100,50,50,50);
+        reset.setBounds((row*50/2)+25,45,50,50);
+        flagCount.setBounds((row*50/2)-100,45,50,50);
+        flagCount.setFont(font1);
         flagCount.setEditable(false);
         
         //grid.add(cellsClosed);
         grid.add(reset);
-        //grid.add(flagCount);
+        grid.add(flagCount);
         
         reset.addMouseListener(this);
   
