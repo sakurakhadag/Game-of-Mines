@@ -40,3 +40,5 @@ Now also featuring an instant reveal when double clicking on cells with all bomb
 
 
 ### Run the GridClick.java to unlock loads of addictive fun!
+
+Coming up next: The Tic Tac Toe game you will always win
