@@ -36,7 +36,7 @@ Now also featuring an instant reveal when double clicking on cells with all bomb
 <br>(Don't know this feature - try it out. Wisely;) )
 
 
-<img src="Minesweeper%20Example%20imgs/6.png" alt="Egg" width="350px" height=400px/>
+<img src="Minesweeper%20Example%20imgs/6.png" alt="Egg" width="350px" height=400px/> | <img src="Minesweeper%20Example%20imgs/7.png" alt="Egg" width="350px" height=400px/>
 
 
 ### Run the GridClick.java to unlock loads of addictive fun!
