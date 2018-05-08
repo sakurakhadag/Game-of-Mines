@@ -6,12 +6,33 @@ A fun minesweeper game developed by yours truly to practise her OOPS in Java ski
 
 1. Say hello to this smiling beauty
 
-    ![Alt text](Minesweeper%20Example%20imgs/1.png){:height="50px" width="50px"}
+    <img src="1.png" alt="Start" width="300px" height=300px/>
     
+2. The game starts with you clicking on a random block
+
+    <img src="2.png" alt="PickOne" width="200px" height=200px/>
     
-    <img src="Minesweeper%20Example%20imgs/1.png?raw=true "Title"" width="48px" height="48px">
-    
-    <img src="Minesweeper%20Example%20imgs/1.png" width="48px" height="48px">
+    <br>(The number on each cell indicates how many bombs neighbour it!)
+
+3. Remember to leave your mark on the game with a right click!
+   
+   <br>Click wisely ;)
+   
+    <img src="3.png" alt="PickOne" width="400px" height=400px/>
+ 
+4. High Five the dude in shades!
+
+   <img src="4.png" alt="PickOne" width="200px" height=200px/>
+   
+5. Most importantly - Don't die!
+
+   <img src="5.png" alt="PickOne" width="200px" height=200px/>
+   
+   
+   
+### Have fun playing!
+
+Now also featuring an instant reveal when double clicking on cells with all bombs around it marked.
+<br>(Don't know this feature - try it out. Wisely!)
 
 
-The game starts with you clicking on a random block
