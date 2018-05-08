@@ -18,10 +18,7 @@ class GridClick implements MouseListener{
     Font font1 = new Font("SansSerif", Font.BOLD, 30);
     JTextField flagCount=new JTextField("10");
     
-    
-    //JTextField cellsClosed=new JTextField("71");//was needed to keep a track of how
-                                                //many non bomb cells were left
-    int cellsLeft=71;
+    int cellsLeft=71;//used for calculating when the game ends
     
     
     JMenuBar settings=new JMenuBar();
@@ -29,9 +26,7 @@ class GridClick implements MouseListener{
     JMenuItem level1=new JMenuItem("Level 1");
     JMenuItem level2=new JMenuItem("Level 2");
     JMenuItem level3=new JMenuItem("Level 3");
-    
-    
-    
+   
     int row, col;
     
     GridClick(int x,int y){
@@ -236,11 +231,7 @@ class GridClick implements MouseListener{
                             if(!isVisible(cell[x+i][y+j])){
                                 cell[x+i][y+j].putClientProperty("visible",1);
                                 cellsLeft--;
-                                System.out.print(x+i+" "+ y+j +" \n");
-                            }
-                            else
-                                System.out.print("Visible"+x+"+"+i+" "+y+"+"+j +" \n");
-                                
+                            }                                
                             
                             bombCount=Integer.parseInt(String.valueOf(cell[x+i][y+j].getClientProperty("bombCount")));
                             setIcon(cell[x+i][y+j],String.valueOf(bombCount));
@@ -336,7 +327,6 @@ class GridClick implements MouseListener{
        int noOfBombs=10;
        int count=0,x,y;
        Random rand=new Random();
-       System.out.println(count);
        while(count!=noOfBombs){
            x=rand.nextInt(row);
            y=rand.nextInt(col);
@@ -506,7 +496,6 @@ class GridClick implements MouseListener{
   
        }
        coords[0]=x;coords[1]=y;
-       //System.out.println(x+"+"+y);
        return coords;
    }
    
