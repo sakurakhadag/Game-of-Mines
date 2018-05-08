@@ -12,7 +12,7 @@ A fun minesweeper game developed by yours truly to practise her OOPS in Java ski
 
     <img src="Minesweeper%20Example%20imgs/2.png" alt="PickOne" width="350px" height=400px/>
     
-    <br>(The number on each cell indicates how many bombs neighbour it!)
+    <br>(Note: The number on each cell indicates how many bombs neighbour it)
 
 3. Remember to leave your mark on the game with a right click!
    
@@ -33,6 +33,10 @@ A fun minesweeper game developed by yours truly to practise her OOPS in Java ski
 ### Have fun playing!
 
 Now also featuring an instant reveal when double clicking on cells with all bombs around it marked.
-<br>(Don't know this feature - try it out. Wisely!)
+<br>(Don't know this feature - try it out. Wisely;) )
 
 
+<img src="Minesweeper%20Example%20imgs/6.png" alt="Egg" width="350px" height=400px/>
+
+
+### Run the GridClick.java to unlock loads of addictive fun!
